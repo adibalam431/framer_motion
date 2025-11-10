@@ -21,7 +21,16 @@ const App = () => {
 
       </motion.div>
       <motion.div 
-      
+      drag
+      whileDrag={{
+        scale:0.8
+      }}
+      dragConstraints={{
+        left:0,
+        
+        
+      }}
+      dragDirectionLock="true"
       className="circle">
 
       </motion.div>
