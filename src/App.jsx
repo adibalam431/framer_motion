@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <div>
-        <a href="https" target="_blank">
+        <a href="htt" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
         <a href="https://" target="_blank">
