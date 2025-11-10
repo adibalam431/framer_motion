@@ -5,14 +5,23 @@ const App = () => {
   return (
     <>
       <motion.div 
-      animate={{x:1000,animationDuration:2}}
-      transition={{delay:2,duration:1}}
+      initial={{
+        x:0,
+        y:0
+      }}
+      animate={{
+        x:[0,800,800,0,0],
+        y:[0,0,300,300,0]
+      }}
+      transition={{
+        duration:4,
+        delay:1
+      }}
       className="box">
 
       </motion.div>
       <motion.div 
-      animate={{x:100,y:200}}
-      transition={{delay:2,duration:1}}
+      
       className="circle">
 
       </motion.div>
